@@ -1,0 +1,44 @@
+Hello Player,
+
+This game is all about testing your luck, if you believe in luck, this game is for you.
+Lets see the rules!
+
+1-> In this game we have assigned values to different cards.
+	
+		Cards                             Value
+
+		king  				    07    
+	        queen				    06
+  		jack 				    05
+ 		
+		Ace of spades			    10
+		Ace of others               	    -1
+		Two of all suits                     2
+		Three of all suits   		    -3
+ 		Four of all suits 		     4
+		Five of all suits 		    -5
+		Six of all suits 		     6
+		Seven of all suits                  -7
+		Eight of all suits                   8
+		Nine of all suits                    0
+		Ten of all suits                    -10
+
+2-> You are provided with 10 chances, you got to score as high as you can in these chances.
+3-> If you will score Highest, your score will be displayed as the highest score and you will
+    be considered as winner.
+4-> And for rest just simply follow where game is leading you.
+5-> You got to choose among certain options and guess what! You are at the end of
+	the game.
+6-> Congratulations You have tested your Luck. 
+ **Your chance will counted only when you will select a card.
+
+		
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\bin\Debug\Game Of Cards.exe.config
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\bin\Debug\Game Of Cards.exe
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\bin\Debug\Game Of Cards.pdb
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\obj\Debug\Game Of Cards.csprojResolveAssemblyReference.cache
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\obj\Debug\Game Of Cards.exe
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\obj\Debug\Game Of Cards.pdb
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\bin\Debug\log4net.dll
+c:\users\ritesh.kumar\documents\visual studio 2015\Projects\Game Of Cards\Game Of Cards\bin\Debug\log4net.xml

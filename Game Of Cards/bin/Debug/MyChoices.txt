@@ -1,0 +1,5 @@
+         Press 1-> For selecting a card
+         Press 2-> For Reshufling the remainng card
+	 Press 3-> For Reseting the card
+         Press 4-> For going back to main menu.
+       
