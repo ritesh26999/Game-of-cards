@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Configuration;
+
 namespace Game_Of_Cards
 {
     class Reader
@@ -36,7 +38,7 @@ namespace Game_Of_Cards
         public static int  ReadIt() {//A function to read from the file.
             try
             {
-                StreamReader sr = new StreamReader("Text.txt");
+                StreamReader sr = new StreamReader(ConfigurationManager.AppSettings["FileW"]);
                 //Read the first line of text
                 string line = "";
                 string b = "";

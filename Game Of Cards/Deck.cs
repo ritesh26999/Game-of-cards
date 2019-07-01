@@ -123,7 +123,7 @@ namespace Game_Of_Cards
                 {
                     this.Initialize();
                 }
-                this.Shuffle();
+             //   this.Shuffle();
                 Card cardToReturn = LeftCards[LeftCards.Count - 1];
                 LeftCards.RemoveAt(LeftCards.Count - 1);
                 log.Debug("out of the DrawCard() function ");
@@ -143,8 +143,9 @@ namespace Game_Of_Cards
                 return LeftCards.Count;
             }
             catch (Exception e) {
-                return 0;
+               
                 log.Error(e.Message);
+                return 0;
             }
         }
 

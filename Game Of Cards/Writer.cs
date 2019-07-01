@@ -4,16 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Configuration;
+
 namespace Game_Of_Cards
 {
     class Writer
     {
+        //ConfigurationManager.AppSettings["FileW"]
 
         public static void WriteIt(string highestScore)
         {
             try
             { 
-                StreamWriter sw = new StreamWriter("Text.txt");
+                StreamWriter sw = new StreamWriter(ConfigurationManager.AppSettings["FileW"]);
                 sw.WriteLine(highestScore);
                 sw.Close();
             }

@@ -38,49 +38,13 @@ namespace Game_Of_Cards
                 log.Error(e.Message);
             }
         }
-        static Deck deck;
+       // static Deck deck;
 
         static void Main(string[] args)
         {
             try
             {
-                log.Debug("Entered in the Main function.");
-                Gaps.LineBreak(5);//a function to break lines
-                Gaps.TabsSpaces(3);//a function to give tabs spaces.
-                Message.WelcomeMessage();//it will display welcome message.
-                Gaps.Sleeps(3);//a function for sleep.  
-                Console.Clear();
-                Gaps.TabsSpaces(1);
-                Gaps.LineBreak(2);
-
-                while (true)
-                {
-                    Message.QuestionAboutMode();// asks Question form the suer.
-                    Console.Write("\n Option: ");
-                    String option = Console.ReadLine();
-                    option = option.ToLower();
-                    if (option.Equals("exit")) { Environment.Exit(0); }
-                    else if (option.Equals("continue"))//this will led you to the game.
-                    {
-                        Game game = new Game_Of_Cards.Game();
-                        Console.Clear();
-                        game.play();
-                    }
-                    else if (option.Equals("manual"))//this will led you to the manual of the game.
-                    {
-                        Message.ManualMess();
-                        Console.WriteLine(ConfigurationManager.AppSettings["CorrectValuePlease"]);//it will display message to enter the correct value.
-                        Console.ReadKey();
-                    }
-                    else
-                    {
-                        Console.WriteLine(ConfigurationManager.AppSettings["CorrectValuePlease"]);
-                        Console.WriteLine(ConfigurationManager.AppSettings["PressAnykey"]);//it will display mesage to Press any key.
-                        Console.ReadKey();
-                    }
-                    Console.Clear();
-                }
-                log.Debug("out of the Main function.");
+                Manager.MainManager();
             }
             catch (Exception e) {
                 log.Error("Error in main "+e.Message);
